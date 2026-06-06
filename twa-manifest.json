@@ -1,0 +1,38 @@
+{
+  "packageId": "com.choreme.twa",
+  "host": "www.choremenow.com",
+  "name": "Chore Me",
+  "shortName": "Chore Me",
+  "display": "standalone",
+  "themeColor": "#1d4ed8",
+  "navigationColor": "#1d4ed8",
+  "navigationColorDark": "#0f172a",
+  "navigationDividerColor": "#1d4ed8",
+  "navigationDividerColorDark": "#1d4ed8",
+  "backgroundColor": "#0f172a",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://www.choremenow.com/static/icons/app-icon-512.png",
+  "maskableIconUrl": "https://www.choremenow.com/static/icons/app-icon-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./choreme-keystore.jks",
+    "alias": "choreme"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 2,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://www.choremenow.com/static/manifest.json",
+  "fallbackType": "customtabs",
+  "enableSiteSettingsShortcut": true,
+  "orientation": "portrait",
+  "fingerprints": [
+    {
+      "sha256Fingerprint": "17:74:40:97:59:43:ED:ED:09:7D:30:6D:DE:79:A9:2D:32:2A:34:5A:A9"
+    }
+  ],
+  "additionalTrustedOrigins": [],
+  "untrustedWebviewAllowList": [],
+  "web_allow_list": []
+}

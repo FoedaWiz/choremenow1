@@ -1,0 +1,101 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.106:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+127.0.0.1 - - [27/Feb/2026 18:09:22] "GET / HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:10:16] "GET / HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:10:17] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.81 - - [27/Feb/2026 18:10:18] "[36mGET /static/icons/app-icon-180.png HTTP/1.1[0m" 304 -
+192.168.1.81 - - [27/Feb/2026 18:10:18] "[36mGET /static/icons/app-icon-192.png HTTP/1.1[0m" 304 -
+192.168.1.81 - - [27/Feb/2026 18:10:19] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:10:31] "POST /auth/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:10:53] "POST /auth/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:11:00] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:11:34] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+192.168.1.81 - - [27/Feb/2026 18:11:34] "GET /dashboard HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:11:43] "GET /kids/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:11:55] "GET /chores/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:11:58] "GET /chores/create HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:12:10] "POST /chores/ai-suggest HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:12:23] "GET /household/manage HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:12:39] "GET /kids/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:12:46] "GET /newsfeed/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:12:57] "GET /chores/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:00] "GET /newsfeed/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:02] "GET /household/manage HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:21] "GET /dashboard HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:25] "GET /newsfeed/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:29] "GET /chores/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:34] "GET /legal/pricing HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:13:44] "[32mGET /payments/subscribe/premium HTTP/1.1[0m" 302 -
+192.168.1.81 - - [27/Feb/2026 18:13:44] "GET /legal/pricing HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:14:02] "[32mGET /payments/subscribe/premium HTTP/1.1[0m" 302 -
+192.168.1.81 - - [27/Feb/2026 18:14:02] "GET /legal/pricing HTTP/1.1" 200 -
+ * Detected change in '/home/datechgod/coffeeproject/app/routes/chores.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+ * Detected change in '/home/datechgod/coffeeproject/app/routes/kids.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+192.168.1.81 - - [27/Feb/2026 18:32:21] "GET /chores/ HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:32:28] "GET /dashboard HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:32:34] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+192.168.1.81 - - [27/Feb/2026 18:32:34] "GET / HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:32:34] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.81 - - [27/Feb/2026 18:33:36] "GET /auth/register HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:33:41] "GET /auth/register HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:33:43] "[32mGET /kid/select HTTP/1.1[0m" 302 -
+192.168.1.81 - - [27/Feb/2026 18:33:43] "GET /kid/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:33:48] "GET /auth/register HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:33:49] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.81 - - [27/Feb/2026 18:33:50] "GET /auth/register HTTP/1.1" 200 -
+ * Detected change in '/home/datechgod/coffeeproject/passenger_wsgi.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+ * Detected change in '/home/datechgod/coffeeproject/app/__init__.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+127.0.0.1 - - [27/Feb/2026 19:20:11] "GET / HTTP/1.1" 200 -
+ * Detected change in '/home/datechgod/coffeeproject/app/routes/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+ * Detected change in '/home/datechgod/coffeeproject/app/routes/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+ * Detected change in '/home/datechgod/coffeeproject/app/routes/main.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 112-079-950
+192.168.1.163 - - [28/Feb/2026 01:54:26] "GET / HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 01:54:26] "GET /static/manifest.json HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 01:54:26] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:06:11] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:06:11] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:09:25] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:09:30] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:10:36] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 02:10:36] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+192.168.1.163 - - [28/Feb/2026 02:10:45] "GET / HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 02:10:45] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:10:45] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+192.168.1.163 - - [28/Feb/2026 02:10:45] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:11:40] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 02:11:41] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+192.168.1.163 - - [28/Feb/2026 02:11:52] "GET / HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 02:11:53] "[35m[1mGET /static/videos/hero.mp4 HTTP/1.1[0m" 206 -
+192.168.1.163 - - [28/Feb/2026 02:11:53] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -
+192.168.1.163 - - [28/Feb/2026 02:11:55] "GET /auth/login HTTP/1.1" 200 -
+192.168.1.163 - - [28/Feb/2026 02:11:55] "[36mGET /static/manifest.json HTTP/1.1[0m" 304 -

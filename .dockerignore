@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Database files
+*.sqlite
+*.db
+instance/
+
+# Node / frontend build artifacts
+node_modules/
+app/static/front/frontend/node_modules/
+
+# Dev tools
+.git/
+.gitignore
+.vscode/
+*.md
+
+# Uploads (use cloud storage in production)
+app/static/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
